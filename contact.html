@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaun Limbeek's Portfolio | Index</title>
+    <title>Shaun Limbeek's Portfolio | Contact</title>
 <!-- Add in link to the Bootstrap Client, as well as a local CSS file -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
@@ -11,19 +11,48 @@
 
 <body>
     <!-- Creating the Navbar -->
-    <nav class="navbar">
+    <nav class="navbar navbar-expand-800">
         <!-- Name on the right side of navbar -->
         <h1 class="navbar" id="navName">Shaun Limbeek</h1>
 
         <!-- Three links to the right, including collapse -->
-        <a href="/contact.html" class="navbar-collapse" id="green-link">Contact</a>
-        <a href="/portfolio.html" class="navbar-collapse" id="green-link">Portfolio</a>
-        <a href="#" class="navbar-collapse" id="about-link">About</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03"></div>
+                <ul class="navbar-nav mb-lg-0">
+                    <li class ="nav-item">
+                        <a href="/contact.html" class="nav-link" id="green-link">Contact</a>
+                    </li>
+                    <li class ="nav-item">
+                        <a href="/portfolio.html" class="navbar-link" id="green-link">Portfolio</a>
+                    </li>
+                    <li class ="nav-item">
+                        <a href="#" class="navbar-link" id="about-link">About</a>
+                    </li>
+                </ul>
+            
     </nav>
 
+    <div style="background-image: url('https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/w-qjCHPZbeXCQ-unsplash.jpg');"
+<!-- Creating the About Me card in the middle of the page -->
+    <main class="container mb-5 pt-5">
+        <!-- create about me section with background blocked out -->
+        <section class="card" style="max-width: 60%;">
+            <div class="card-body">
+              <h2 class="Title" id="about-me-title">Contact</h2>
+                <hr />
+                <!-- Insert Name entry field -->
+            </div>
+        </section>
 
 
-    <footer class="footer pb-2 bg-dark">
+        
+    </main>
+
+    <!-- Creating the footer -->
+    <footer class="footer pb-2 bg-dark"><span class="border-top"></span>
         <div class="footer" id="break">
             <p class="break">.</p>
         </div>
