@@ -81,7 +81,7 @@ The MIT License (MIT); Copyright 2011-2020 Twitter, Inc.; Copyright 2011-2020 Th
 
 ## Authors
 
-* **Shaun Limbeek** 
+### **Shaun Limbeek** 
 
 - [Link to Github](https://github.com/slimbeek6/)
 - [Link to LinkedIn](https://www.linkedin.com/in/shaun-limbeek/)
