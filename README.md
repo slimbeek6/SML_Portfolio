@@ -69,12 +69,15 @@ and the following CSS code:
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstraps](https://getbootstrap.com/)
 
 ## Deployed Link
 
 * [See Live Site](https://slimbeek6.github.io/SML_Portfolio/index.html)
 
+## Licenses
+
+* [Bootstraps](https://getbootstrap.com/) - 
+The MIT License (MIT); Copyright 2011-2020 Twitter, Inc.; Copyright 2011-2020 The Bootstrap Authors
 
 ## Authors
 
