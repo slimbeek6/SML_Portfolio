@@ -19,7 +19,7 @@ The request was to create a set of three interconnected webpages to serve as a p
 
 ## Deployed Link
 
-* [See Live Site](https://slimbeek6.github.io/refactoring_site_SL/)
+* [See Live Site](https://slimbeek6.github.io/SML_Portfolio/)
 
 
 ## Authors
@@ -28,4 +28,4 @@ The request was to create a set of three interconnected webpages to serve as a p
 
 - [Link to Github](https://github.com/slimbeek6/)
 - [Link to LinkedIn](https://www.linkedin.com/in/shaun-limbeek/)
-- [Link to Portfolio]()
+- [Link to Portfolio](https://slimbeek6.github.io/SML_Portfolio/)
