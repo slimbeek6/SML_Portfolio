@@ -11,7 +11,7 @@
 
 <body>
     <!-- Creating the Navbar -->
-    <nav class="navbar navbar-expand-800">
+    <nav class="navbar navbar-expand-lg">
         <!-- Name on the right side of navbar -->
         <h1 class="navbar" id="navName">Shaun Limbeek</h1>
 
@@ -35,8 +35,12 @@
             
     </nav>
 
+<!-- Set the Background image -->
     <div style="background-image: url('https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/w-qjCHPZbeXCQ-unsplash.jpg');"
+
+
 <!-- Creating the About Me card in the middle of the page -->
+
     <main class="container mb-5 pt-5">
         <!-- create about me section with background blocked out -->
         <section class="card" style="max-width: 60%;">
@@ -44,6 +48,22 @@
               <h2 class="Title" id="about-me-title">Contact</h2>
                 <hr />
                 <!-- Insert Name entry field -->
+                <form>
+                    <div class="form-group mb-2">
+                      <label for="InputName">Password</label>
+                      <input type="name" class="form-control" id="InputName" placeholder="Name" style="mt-1; max-width: 75%;">
+                    </div>
+                    <div class="form-group mb-2">
+                        <label for="InputEmail">Email address</label>
+                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email" style="mt-1; max-width: 75%;">
+                    </div>
+                    <div class="form-group mb-2">
+                        <label for="InputMessage">Message</label>
+                        <input type="email" class="form-control" id="InputMessage" aria-describedby="messageHelp" placeholder="Message" style="mt-1; max-width: 75%; height: 8rem;">
+                    </div>
+                    <button type="submit" class="btn" style="background: #4AAAA5; color: white; mt-1">Submit</button>
+                </form>
+
             </div>
         </section>
 
