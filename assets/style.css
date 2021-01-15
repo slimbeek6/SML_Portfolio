@@ -1,6 +1,6 @@
 nav {
     margin: auto;
-    padding: 2px;
+    padding: 4px;
 }
 
 #myName {
@@ -12,13 +12,21 @@ nav {
 .menuItem {
     margin-right: 2%;
     font-weight: bold;
-    text-decoration: underline aqua;
+    text-decoration: underline green;
 }
 
 body {
-    height: 100%;
-    background-image: url(./background-image.jpg);
+    
+    background-image: url(./background-image2.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
-    background-size: cover; 
+    background-size: 100%; 
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.footer {
+    background-color: transparent;
 }
