@@ -30,3 +30,7 @@ body {
 .footer {
     background-color: transparent;
 }
+
+#contactPane{
+    background-color: semi-transparent;
+}
