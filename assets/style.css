@@ -16,11 +16,16 @@ nav {
 }
 
 body {
-    
     background-image: url(./background-image2.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: 100%; 
+}
+
+@media (max-width: 800px) {
+    body {
+        background-size: auto;
+    }
 }
 
 .navbar {
@@ -43,4 +48,8 @@ body {
 #emailSect {
     font-size: large;
     font-weight: bold;
+}
+
+#about-me-title {
+    /* padding-top: 1rem; */
 }
