@@ -3,61 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaun Limbeek's Portfolio | Index</title>
-
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
     <link rel="stylesheet" href="assets/style.css">
+    <title>Shaun Limbeek | About Me</title>
 </head>
-
 <body>
-     <!-- Creating the Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h1 class="navbar-brand" href="#" id="navName">Shaun Limbeek</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse offset-md-7" id="navbarNavAltMarkup">
-            <div class="navbar-nav" style="text-align: right;">
-                <a class="nav-item nav-link" href="https://slimbeek6.github.io/SML_Portfolio/contact.html" id="green-link">Contact</a>
-                <a class="nav-item nav-link" href="https://slimbeek6.github.io/SML_Portfolio/portfolio.html" id="green-link">Portfolio</a>
-                <a class="nav-item nav-link" href="https://slimbeek6.github.io/SML_Portfolio/about.html" id="black-link">About</a>
+    <main class="container">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="https://slimbeek6.github.io/SML_Portfolio/" id="myName">
+                    <h1 class="title" >Shaun Limbeek</h1>
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarRightSide">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-        </div>
-      </nav>
 
-      
-    <div style="background-image: url('https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/w-qjCHPZbeXCQ-unsplash.jpg');"
-<!-- Creating the About Me card in the middle of the page -->
-    <main class="container mb-5 pt-5">
-        <!-- create about me section with background blocked out -->
-        <section class="card" style="max-width: 80%;">
-            <div class="card-body">
-              <h2 class="Title" id="about-me-title">About Me</h2>
-                <hr />
-                <img src="assets/background-image.jpg" alt="Shaun Limbeek" class="image">
-                <p class="about-me-words">
-                I was born in Johannesburg, South Africa to a Dutch father and an English mother, who moved our family to the US and Atlanta when I was three.  I grew up in Atlanta through high school, where I graduated from the Westminster Schools.
-                After high school, I went to Vanderbilt University for my undergraduate degree, where I majored in both applied mathematics and economics, with a minor in finance.
-                Upon graduation, I moved to New York to work for a boutique management consulting firm named "Mars & Co", where I worked for the first two and a half years out of college. During this time I worked for Mars on 3 different continents, with projects taking me to Brussels, Sao Paolo, and across the US.
-                After my 2.5 years in New York, I transferred to the San Francisco office, where I would go on to work largely with one of our largest clients, Mattel, on a massive supply chain optimization project, which involved me living between mainland China and Hong Kong for nearly half a year.
-                I then moved on to work for Facebook and Atlassian as a compensation specialist, setting and applying market rates for employee compensation, as well as creating and managing the overall budget for equity spend within the companies.
-                After all these experiences, I have now started to work on becoming a coder to apply my more analytical and systems driven thinking to my work more directly.
+            <div id="navbarRightSide" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item menuItem" href="https://slimbeek6.github.io/SML_Portfolio/portfolio.html">Portfolio</a>
+                    <a class="navbar-item menuItem" href="https://slimbeek6.github.io/SML_Portfolio/about.html">About</a>
+                    <a class="navbar-item menuItem" href="https://slimbeek6.github.io/SML_Portfolio/contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div>
+                <h1 class="title">
+                    About Me
+                </h1>
+            </div>
+            <br>
+                
+            <div class="columns">
+                <img class="image column is-one-third" id="picOfSelf" alt="Picture of myself and my sister with our dogs in Carmel" src="assets/self.jpg">
+                <p class="column is-five-sixths" id="aboutMe">
+                    I'm Shaun, a full-stack web developer and recovering consultant.  I'm currently living in San Francisco, and studying at the University of Berkeley extension to earn my certificate in full-stack coding.
+                    <br><br>
+                    After earning a BS in Mathematics and Economics from Vanderbilt University, I began a career in management and strategy consulting at a boutique firm named Mars & Co. During this time I worked for Mars on 4 different continents, with projects taking me to Brussels, Sao Paolo, Hong Kong, Chang'anzhen, and across the US.
+                    <br><br>
+                    After five years on the road, I transitioned careers applying my modeling skills and business knowledge as a compensation analyst first for Facebook, then Atlassian. Since leaving Atlassian, I have started to learn and work with web development as a way to apply my analytical and systems based thinking.
                 </p>
             </div>
+    
         </section>
 
-
-        
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>   
+                    The source code is licensed via <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+                </p>
+            </div>
+        </footer>
     </main>
-
-    <!-- Creating the footer -->
-    <footer class="footer pb-2 bg-dark"><span class="border-top"></span>
-        <div class="footer" id="break">
-            <p class="break">.</p>
-        </div>
-        
-        <p id="footer">&copy; Copyright</p>
-    </footer>
 </body>
 </html>

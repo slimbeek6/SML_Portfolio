@@ -66,10 +66,17 @@ body {
 
 .cardtext {
     display: inline-flex;
+    max-width: 65%;
     margin: 1rem 0rem;
+    word-wrap: normal;
 }
 
 .cardTitle {
     font-size: larger;
     font-weight: bold;
+}
+
+.cardlink {
+    display: inline-block;
+    margin: 1rem;
 }
