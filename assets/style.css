@@ -1,60 +1,82 @@
-
-#navName {
-background-color: #4AAAA5;
-color: white;
-padding: 0.5rem 0;
-margin: 0.2rem 0 0.2rem 4rem; 
+nav {
+    margin: auto;
+    padding: 4px;
 }
 
-#green-link {
-    color: #4AAAA5;
-    text-decoration: none;
-    font-size: 18px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+#myName {
+    word-wrap: none;
+    padding-left: 1rem;
+    word-break: keep-all;
 }
 
-#black-link{
-    color:black;
-    text-decoration: none;
-    font-size: 18px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;}
+.menuItem {
+    margin-right: 2%;
+    font-weight: bold;
+    text-decoration: underline green;
+}
 
-.main {
-    background-image: src=url('https://d3k8cp7ga1ip8x.cloudfront.net/media/meural/c52f1bd66cc19d05628bd8bf27af3ad6/AwibzSeLxhUIxQJK4vrrc7Mwc0CIka8f.jpeg');
+body {
+    background-image: url(./background-image2.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+}
+
+@media (max-width: 800px) {
+    body {
+        background-size: auto;
     }
+}
 
-#about-me-overall{
-    margin: 2rem 1rem;
-    background-color: white;
+.navbar {
+    background-color: transparent;
+}
+
+.footer {
+    background-color: transparent;
+}
+
+#contactPane{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.button {
+    background-color: blue;
+    color:white;
+}
+
+#emailSect {
+    font-size: large;
+    font-weight: bold;
 }
 
 #about-me-title {
-    color: #4AAAA5;
+    /* padding-top: 1rem; */
 }
 
-#break {
-    background-color: #4AAAA5;
-    color: #4AAAA5;
-    font-size: 6px;
+.portfolioCard {
+    background-color: rgba(255,255,255,0.5);
+    margin: 1rem;
 }
 
-.image{
-    float: left;
-    max-width: 200px;
-    max-height: 200px;
-    padding: 0 2rem 1rem 0;
+.cardimg {
+    display: inline;
+    margin: 1rem;
 }
 
-#footer {
-    color:#4AAAA5;
-    text-align: center;
-    font-style: 24px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+.cardtext {
+    display: inline-flex;
+    max-width: 65%;
+    margin: 1rem 0rem;
+    word-wrap: normal;
 }
 
-.image-flex {
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
+.cardTitle {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.cardlink {
+    display: inline-block;
     margin: 1rem;
 }
