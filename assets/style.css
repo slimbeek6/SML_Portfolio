@@ -53,3 +53,23 @@ body {
 #about-me-title {
     /* padding-top: 1rem; */
 }
+
+.portfolioCard {
+    background-color: rgba(255,255,255,0.5);
+    margin: 1rem;
+}
+
+.cardimg {
+    display: inline;
+    margin: 1rem;
+}
+
+.cardtext {
+    display: inline-flex;
+    margin: 1rem 0rem;
+}
+
+.cardTitle {
+    font-size: larger;
+    font-weight: bold;
+}
