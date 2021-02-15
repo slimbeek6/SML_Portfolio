@@ -1,0 +1,49 @@
+<main class="container">
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="https://slimbeek6.github.io/SML_Portfolio/" id="myName">
+                <h1 class="title" >Shaun Limbeek</h1>
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarRightSide">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarRightSide" class="navbar-menu">
+            <div class="navbar-end">
+                <button class="navbar-item menuItem" id="home-link">Home</button>
+                <button class="navbar-item menuItem" id="about-link">About</button>
+                <button class="navbar-item menuItem" id="contact-link">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        
+            <h2 class="title" id="about-me-title">Portfolio</h2>
+            
+            
+            <div class="mb-5" id="projects">
+                {{#each projects}}
+                    {{> project-block}}
+                {{/each}}
+            </div> 
+                    
+            
+    </section>
+</main>
+
+
+
+<!-- Creating the footer -->
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>   
+            The source code is licensed via <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+        </p>
+    </div>
+</footer>
+
+<script src="../js/portfolio.js"></script>

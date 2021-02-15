@@ -1,0 +1,86 @@
+nav {
+    margin: auto;
+    padding: 4px;
+}
+
+#myName {
+    word-wrap: none;
+    padding-left: 1rem;
+    word-break: keep-all;
+}
+
+.menuItem {
+    margin-right: 2%;
+    font-weight: bold;
+    text-decoration: underline green;
+}
+
+body {
+    background-color: lightcyan;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+}
+
+@media (max-width: 800px) {
+    body {
+        background-size: auto;
+    }
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.footer {
+    background-color: transparent;
+}
+
+#contactPane{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.button {
+    background-color: blue;
+    color:white;
+}
+
+#emailSect {
+    font-size: large;
+    font-weight: bold;
+}
+
+#about-me-title {
+    /* padding-top: 1rem; */
+}
+
+.portfolioCard {
+    background-color: rgba(255,255,255,0.5);
+    margin: 1rem;
+}
+
+.cardimg {
+    display: inline;
+    margin: 1rem;
+}
+
+.cardtext {
+    display: inline-flex;
+    max-width: 65%;
+    word-wrap: normal;
+    padding-right: 1rem;
+}
+
+.cardTitle {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.cardlink {
+    display: inline-block;
+    margin: 1rem;
+}
+
+#selfphoto {
+    max-width: 240px;
+}

@@ -18,6 +18,15 @@
   },
   "homepage": "https://github.com/slimbeek6/SML_Portfolio#readme",
   "dependencies": {
-    "bulma": "^0.9.1"
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "bulma": "^0.9.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^1.6.4",
+    "path": "^0.12.7",
+    "sequelize": "^4.41.2"
   }
 }

@@ -1,0 +1,80 @@
+<main class="container">
+<!-- Creating the Navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="https://slimbeek6.github.io/SML_Portfolio/" id="myName">
+                <h1 class="title" >Shaun Limbeek</h1>
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarRightSide">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarRightSide" class="navbar-menu">
+            <div class="navbar-end">
+                <button class="navbar-item menuItem" id="home-link">Home</button>
+                <button class="navbar-item menuItem" id="about-link">About</button>
+                <button class="navbar-item menuItem" id="portfolio-link">Portfolio</button>
+            </div>
+        </div>
+    </nav>    
+
+    <br><br>
+    
+    <!-- Main section -->
+    <section class="columns">
+        <section class="card column is-full" id="contactPane">
+            
+                <h4 class="subtitle">How to get in touch</h4>
+                
+                <br>
+                <section class="columns">
+                    <h5 id="emailSect" class="column is-one-third">Email: </h5>
+                    <h5 id="emailSect" class="column is-one-third">LinkedIn: </h5>
+                    <h5 id="emailSect" class="column is-one-third">Other: </h5>
+                </section>
+
+                <section class="columns">
+                    <form class="column is-one-third">
+                        <div class="form-group columns">
+                            <label for="InputEmail" class="column is-one-third">Email address: </label>
+                            <input type="email" class="form column is-half" id="InputEmail" aria-describedby="emailHelp" placeholder="Email" style="mt-1; max-width: 75%;">
+                        </div>
+                        <br>
+                        <div class="form-group columns">
+                            <label for="InputMessage" class="column is-one-third">Message:</label>
+                            <input type="message" class="form-control column is-half" id="InputMessage" aria-describedby="messageHelp" placeholder="Message" style="mt-1; max-width: 75%; height: 8rem; text-align: top;">
+                        </div>
+                        <button type="submit" class="button" id="send-email">Submit</button>
+                    </form>
+
+                    <div class="LI-profile-badge column is-one-third"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="shaun-limbeek"><a class="LI-simple-link" href='https://www.linkedin.com/in/shaun-limbeek?trk=profile-badge'>Shaun Limbeek</a></div>
+
+                    <article class="column is-one-third">
+                        <ul>
+                            <li><a href="https://github.com/slimbeek6/">Github</a></li>
+                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li><a href="https://shaun-limbeek.medium.com/">Medium</a></li>
+                        </ul>
+                    </article>
+                </section>
+        </section>
+    </section>
+
+
+    
+
+
+    <!-- Creating the footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>   
+                The source code is licensed via <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+            </p>
+        </div>
+    </footer>
+</main>
+
+<script src="../js/contact.js"></script>
