@@ -10,4 +10,16 @@ $(document).ready(function () {
     $("#contact-link").on("click", function(event) {
         window.location.pathname = ("/contact");
     });
+
+    $("#Portfolio-box").on("click", function(event) {
+        window.location.pathname = ("/portfolio");
+    });
+
+    $("#About-box").on("click", function(event) {
+        window.location.pathname = ("/about");
+    });
+
+    $("#Contact-box").on("click", function(event) {
+        window.location.pathname = ("/contact");
+    });
 });
