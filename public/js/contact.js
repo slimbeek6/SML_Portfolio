@@ -14,6 +14,6 @@ $(document).ready(function () {
     $("#send-email").on("click", function(event) {
         var email = $("#InputEmail").val().trim();
         var message = $("#InputMessage").val().trim();
-        window.open(`mailto:${email}?subject="Reaching Out"&body=${message}`);
+        window.open(`mailto: shaun.limbeek@gmail.com?subject=${email}&body=${message}`);
     });
 });
