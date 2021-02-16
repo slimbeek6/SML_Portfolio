@@ -4,7 +4,7 @@
 
 The request was to create a set of three interconnected webpages to serve as a portfolio for my ongoing work with coding.  The three pages are an index, a portfolio page, and a contact page.  These pages link to each other, and are created to be responsive to different browser page sizes. The index page looks like this:
 
-![Picture of Website](webpage.png)
+![Picture of Website](../assets/webpage.png)
 
 ## Key Pieces of Code
 
