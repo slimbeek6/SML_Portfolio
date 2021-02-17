@@ -6,6 +6,8 @@ The request was to create a set of three interconnected webpages to serve as a p
 
 ![Picture of Website](/public/assets/pic-of-site.png)
 
+* [See Live Site](https://immense-meadow-10027.herokuapp.com/)
+
 ## Key Pieces of Code
 
 There are a couple of key pieces of code within these portfolio pages that allows the page to run as intended. The first of these is the collapse function in the navbar that allows for the links on the right side of the navbar to collapse and disappear when the window pane reduces size.
@@ -69,10 +71,6 @@ and the following CSS code:
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-## Deployed Link
-
-* [See Live Site](https://slimbeek6.github.io/SML_Portfolio/index.html)
 
 ## Licenses
 
